@@ -14,7 +14,7 @@ public class CapabilitiesTest {
                 "ANDROID_DEVICE_NAME", "Pixel Emulator"));
         UiAutomator2Options options = DriverFactory.options(config);
         assertEquals(options.getPlatformName().toString(), "ANDROID");
-        assertEquals(options.getAutomationName().orElse(""), "UiAutomator2");
+        assertEquals(options.getAutomationName().orElse(""), "UIAutomator2");
         assertEquals(options.getApp().orElse(""), "/tmp/QuickTip.apk");
         assertEquals(options.getDeviceName().orElse(""), "Pixel Emulator");
     }
