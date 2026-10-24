@@ -12,8 +12,20 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <appium.version>9.5.0</appium.version>
     <testng.version>7.11.0</testng.version>
+    <selenium.version>4.34.0</selenium.version>
     <excludedGroups>mobile</excludedGroups>
   </properties>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-bom</artifactId>
+        <version>${selenium.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
   <dependencies>
     <dependency>
       <groupId>io.appium</groupId>
