@@ -86,3 +86,12 @@ docs/TEST_STRATEGY.md
 5. Add an Android emulator GitHub Actions job **only after** device tests are verified.
 
 The framework is MIT licensed; see [LICENSE](LICENSE). No app credentials or personal data are committed.
+
+## Project documentation and portfolio
+
+- [Architecture and design decisions](docs/ARCHITECTURE.md)
+- [QuickTip test plan and scenario matrix](docs/QUICKTIP_TEST_PLAN.md)
+- [Windows + physical Android phone setup](docs/LOCAL_SETUP_WINDOWS.md)
+- [Portfolio case study / website copy](docs/PORTFOLIO_CASE_STUDY.md)
+
+**Execution status:** Documentation and framework code exist. Real-device test results will be added only after a verified run.
