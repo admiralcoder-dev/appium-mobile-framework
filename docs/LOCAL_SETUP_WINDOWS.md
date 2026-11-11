@@ -48,10 +48,10 @@ If Appium is not installed, the existing baseline can be installed with:
 
 ```powershell
 npm install -g appium@2
-appium driver install uiautomator2
+appium driver install uiautomator2@4.2.9
 ```
 
-**Do not blindly mix major versions.** Newer UiAutomator2 drivers have explicit Appium server compatibility requirements. Check the [driver compatibility matrix](https://appium.github.io/appium-uiautomator2-driver/latest/getting-started/) before upgrading Appium or the driver.
+**Compatibility pin:** UiAutomator2 4.2.9 is in the Appium 2-compatible major-version range; the latest UiAutomator2 driver is not. **Do not blindly mix major versions.** Newer UiAutomator2 drivers have explicit Appium server compatibility requirements. Check the [driver compatibility matrix](https://appium.github.io/appium-uiautomator2-driver/latest/getting-started/) before upgrading Appium or the driver.
 
 Then validate requirements:
 
